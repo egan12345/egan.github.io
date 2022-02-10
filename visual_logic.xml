@@ -1,0 +1,66 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="751.9999999999999" scrolly="386.0000000000001" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="737.4148324498922" scrolly="434.6995798835492" scale="0.9990246726578142">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id=".bqzREVD1Mb?uRl[E`Ce" x="-650" y="-310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="N;L3[TATT8XaBN,2q(u6">
+          <field name="FIELDNAME">gaizi</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="_1j+|}/97v25t:k5^6vN">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="O}/Q?:,1kJoNr~i#:x4o">
+              <field name="FIELDNAME">gaizi</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="9Q;)7lvhkk~L`pBlKiMy" x="-650" y="-190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="#y?l2}(JIHxpurgK~7[^">
+          <field name="FIELDNAME">立方体</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="}C]zwFpptaH}G#obHb#N">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">TRUE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="ezZ,ZVN#L=gSa9?Fh_wN">
+              <field name="FIELDNAME">gaizi</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="1K!KKT;#|KMkna,|k@V/">
+              <field name="NUM">1</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="3C4seW}]PV-npm8B?v=I">
+              <field name="NUM">50</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1103.0009765625" viewport-y="15.7718505859375" viewport-w="554.014" viewport-h="512.127" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
